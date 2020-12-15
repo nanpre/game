@@ -1,0 +1,17 @@
+<script> 
+   
+    var enterNum; 
+    var rand = Math.floor(Math.random() * 10 + 1); 
+
+    function checkNum(num1) {
+        enterNum=window.prompt("Enter a number between 1 and 10")
+        if (enterNum == rand) {
+        alert("Congratulations! You got it right!")       
+      }
+    }
+
+  enterNum = window.prompt("Enter a number between 1 and 10")
+  while (enterNum!=rand){
+    checkNum(enterNum)
+  }
+</script> 
